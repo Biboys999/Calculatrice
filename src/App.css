@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Perso */
+
+body{
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ul {margin: 0; padding: 0;}
+
+
+.position_symbole{
+  position: relative;
+  margin-top: 26px;
+}
+
+#Calculatrice {
+  background-color: #404040;
+  width: 375px;
+  height: 667px;
+}
+
+#header{
+  background-color: black;
+  height: 30vh;
+}
+
+#akatsuki{
+  width: 119.48px;
+  height: 70px;
+  left: 10px;
+}
+
+#sceau{
+  width: 99px;
+  height: 85px;
+  left: 21px;
+  top: 5px;
+}
+
+#uchiha{
+  width: 70px;
+  height: 70px;
+  right: -55px;
+}
+.button{
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+
+  border-radius: 8px;
+  border: none;
+  background-size: cover;
+}
+.btn_chiffre{
+  background-color: black;
+}
+.btn_operation{
+  font-size: x-large;
+}
+
+#zero{
+  background-image: url('./naruto_img/demon_a_queue/sharingan_zero.png');
+}
+#un{
+  background-image: url('./naruto_img/demon_a_queue/une_queue.jpg');
+
+}
+#deux{
+  background-image: url('./naruto_img/demon_a_queue/deux_queue..jpg');
+}
+#trois{
+  background-image: url('./naruto_img/demon_a_queue/trois_queue.jpg');
+}
+#quatre{
+  background-image: url('./naruto_img/demon_a_queue/quatre_queue.jpg');
+}
+#cinq{
+  background-image: url('./naruto_img/demon_a_queue/cinq_queue.jpg');
+}
+#six{
+  background-image: url('./naruto_img/demon_a_queue/six_queue.jpg');
+}
+#sept{
+  background-image: url('./naruto_img/demon_a_queue/sept_queue.jpg');
+}
+#huit{
+  background-image: url('./naruto_img/demon_a_queue/huit_queue.jpg');
+}
+#neuf{
+  background-image: url('./naruto_img/demon_a_queue/neuf_queue.jpg');
+}
