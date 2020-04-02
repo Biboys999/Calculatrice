@@ -44,7 +44,7 @@
   font-family: Naruto;
 }
 body{
-  background-color: teal;
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,6 +61,8 @@ ul {margin: 0; padding: 0;}
   background-color: #404040;
   width: 375px;
   height: 667px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
 }
 #corp{
   height: 55%;
@@ -72,6 +74,7 @@ ul {margin: 0; padding: 0;}
 #header{
   background-color: black;
   height: 45%;
+  border-radius: 5px 5px 0 0;
 }
 
 #akatsuki{
