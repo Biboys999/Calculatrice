@@ -18,10 +18,7 @@ import Button from './components/Button'
 class Calculatrice extends React.Component {
   state = {
     bouton_operation : [ 
-      {
-        id : 1,
-        nom : "AC",
-      },
+
       {
         id : 4,
         nom : "+",
@@ -37,10 +34,7 @@ class Calculatrice extends React.Component {
       {
         id : 6,
         nom : "=",
-      },          {
-        id : 7,
-        nom : ",",
-      } 
+      },          
     ],
 
 
@@ -85,27 +79,38 @@ class Calculatrice extends React.Component {
         id : "zero",
         nom : "0",
       },
+      {
+        id : 1,
+        nom : "AC",
+      },
+      {
+        id : 7,
+        nom : ".",
+      } 
     ]
   }
 
   render() {
     return(
       <div id="Calculatrice">
-      <Header />
-        <ul>
-        {
-          this.state.bouton_operation.map(bouton_operation => (
-            <button id={bouton_operation.id} className="button btn_operation" key={bouton_operation.id}>{bouton_operation.nom}</button>
-          ))
-        }
-        </ul>
-        <ul>
-        {
-          this.state.bouton_chiffre.map(bouton_chiffre => (
-            <button id={bouton_chiffre.id} className="button btn_chiffre" key={bouton_chiffre.id}>{bouton_chiffre.nom}</button>
-          ))
-        }
-        </ul>
+        <Header />
+        <div id="corp">
+          <ul id="chiffre">
+          {
+            this.state.bouton_chiffre.map(bouton_chiffre => (
+              <button id={bouton_chiffre.id} className="button btn_chiffre" key={bouton_chiffre.id}>{bouton_chiffre.nom}</button>
+            ))
+          }
+          </ul>
+          <ul id="operation">
+          {
+            this.state.bouton_operation.map(bouton_operation => (
+              <button id={bouton_operation.id} className="button btn_operation" key={bouton_operation.id}>{bouton_operation.nom}</button>
+            ))
+          }
+          </ul>
+        </div>
+
       </div>
     )
   }

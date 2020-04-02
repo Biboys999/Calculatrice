@@ -60,10 +60,16 @@ ul {margin: 0; padding: 0;}
   width: 375px;
   height: 667px;
 }
-
+#corp{
+  height: 55%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
 #header{
   background-color: black;
-  height: 30vh;
+  height: 45%;
 }
 
 #akatsuki{
@@ -98,6 +104,18 @@ ul {margin: 0; padding: 0;}
 }
 .btn_operation{
   font-size: x-large;
+}
+#operation{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#chiffre{
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #zero{
