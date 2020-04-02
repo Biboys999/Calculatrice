@@ -39,7 +39,10 @@
 
 
 /* Perso */
-
+@font-face {
+  src: url("./fonts/njnaruto.ttf");
+  font-family: Naruto;
+}
 body{
   background-color: teal;
   display: flex;
@@ -48,7 +51,6 @@ body{
   height: 100vh;
 }
 ul {margin: 0; padding: 0;}
-
 
 .position_symbole{
   position: relative;
@@ -97,13 +99,14 @@ ul {margin: 0; padding: 0;}
 
   border-radius: 8px;
   border: none;
-  background-size: cover;
 }
 .btn_chiffre{
   background-color: black;
+  font-size: xx-large;
+  padding-top: 9px;
 }
 .btn_operation{
-  font-size: x-large;
+  font-size: xx-large;
 }
 #operation{
   width: 25%;
@@ -120,32 +123,61 @@ ul {margin: 0; padding: 0;}
 
 #zero{
   background-image: url('./naruto_img/demon_a_queue/sharingan_zero.png');
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #un{
   background-image: url('./naruto_img/demon_a_queue/une_queue.jpg');
-
+  background-size: cover;
 }
 #deux{
   background-image: url('./naruto_img/demon_a_queue/deux_queue..jpg');
+    background-size: cover;
 }
 #trois{
   background-image: url('./naruto_img/demon_a_queue/trois_queue.jpg');
+    background-size: cover;
+
 }
 #quatre{
   background-image: url('./naruto_img/demon_a_queue/quatre_queue.jpg');
+    background-size: cover;
+
 }
 #cinq{
   background-image: url('./naruto_img/demon_a_queue/cinq_queue.jpg');
+    background-size: cover;
+
 }
 #six{
   background-image: url('./naruto_img/demon_a_queue/six_queue.jpg');
+    background-size: cover;
+
 }
 #sept{
   background-image: url('./naruto_img/demon_a_queue/sept_queue.jpg');
+    background-size: cover;
+
 }
 #huit{
   background-image: url('./naruto_img/demon_a_queue/huit_queue.jpg');
+    background-size: cover;
+
 }
 #neuf{
   background-image: url('./naruto_img/demon_a_queue/neuf_queue.jpg');
+    background-size: cover;
+
+}
+#AC{
+  font-family: Naruto;
+  color: white;
+}
+#point{
+  background-image: url('./naruto_img/demon_a_queue/point_sharingan.png');
+
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -80,13 +80,14 @@ class Calculatrice extends React.Component {
         nom : "0",
       },
       {
-        id : 1,
-        nom : "AC",
+        id : "point",
+        nom : ".",
       },
       {
-        id : 7,
-        nom : ".",
-      } 
+        id : "AC",
+        nom : "AC",
+        text : "K O"
+      }
     ]
   }
 
@@ -98,7 +99,7 @@ class Calculatrice extends React.Component {
           <ul id="chiffre">
           {
             this.state.bouton_chiffre.map(bouton_chiffre => (
-              <button id={bouton_chiffre.id} className="button btn_chiffre" key={bouton_chiffre.id}>{bouton_chiffre.nom}</button>
+              <button id={bouton_chiffre.id} className="button btn_chiffre" key={bouton_chiffre.id}>{bouton_chiffre.text}</button>
             ))
           }
           </ul>
