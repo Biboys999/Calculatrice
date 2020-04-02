@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="351" alt="maquette" src="https://user-images.githubusercontent.com/58028895/78221325-721a6a80-74c3-11ea-8939-73e03e52b0ab.png">
+**Maquette Calculatrice**
+
 
 ## Available Scripts
 
